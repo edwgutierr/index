@@ -5,19 +5,25 @@
     <meta charset="UTF-8">
     <title>Tarjeta Digital - Carmen Guzmán</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
             background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+        }
+        .container {
             display: flex;
+            align-items: center;
             justify-content: center;
-            padding-top: 50px;
+            height: 100%;
         }
         .card {
             background: white;
             width: 400px;
             border-radius: 20px;
             box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-            padding: 20px;
+            padding: 30px 20px;
             text-align: center;
         }
         .logo {
@@ -25,7 +31,7 @@
             margin: 20px auto;
         }
         .name {
-            font-size: 1.5em;
+            font-size: 1.6em;
             font-weight: bold;
         }
         .title {
@@ -50,15 +56,17 @@
     </style>
 </head>
 <body>
-    <div class="card">
-        <div class="name">Carmen Guzmán Romainville</div>
-        <div class="title">Líder de Logística y Aprovisionamiento</div>
-        <img class="logo" src="Logo_PLUZ.jpg" alt="Logo PLUZ">
-        <div class="company">PLUZ Energía Perú S.A.A.</div>
-        <div class="contact">
-            <div><img class="icon" src="https://img.icons8.com/material-outlined/24/000000/email.png"/> carmen.guzman@pluz.pe</div>
-            <div><img class="icon" src="https://img.icons8.com/material-outlined/24/000000/phone.png"/> +51 975 443 618 / +51 920 90 427</div>
-            <div><img class="icon" src="https://img.icons8.com/material-outlined/24/000000/weixing.png"/> wxid_o98dlgkekm9422</div>
+    <div class="container">
+        <div class="card">
+            <div class="name">Carmen Guzmán Romainville</div>
+            <div class="title">Líder de Logística y Aprovisionamiento</div>
+            <img class="logo" src="Logo_PLUZ.jpg" alt="Logo PLUZ">
+            <div class="company">PLUZ Energía Perú S.A.A.</div>
+            <div class="contact">
+                <div><img class="icon" src="https://img.icons8.com/material-outlined/24/000000/email.png"/> carmen.guzman@pluz.pe</div>
+                <div><img class="icon" src="https://img.icons8.com/material-outlined/24/000000/phone.png"/> +51 975 443 618 / +51 920 90 427</div>
+                <div><img class="icon" src="https://img.icons8.com/material-outlined/24/000000/weixing.png"/> wxid_o98dlgkekm9422</div>
+            </div>
         </div>
     </div>
 </body>
