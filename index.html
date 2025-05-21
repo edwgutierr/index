@@ -4,12 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Tarjeta Digital - Carmen Guzmán</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         html, body {
             margin: 0;
             padding: 0;
             height: 100%;
-            background-color: #f4f4f4;
+            background-color: #1e2a38;
             font-family: Arial, sans-serif;
         }
         .container {
@@ -17,26 +18,29 @@
             align-items: center;
             justify-content: center;
             height: 100%;
+            padding: 20px;
         }
         .card {
             background: white;
-            width: 400px;
+            width: 90%;
+            max-width: 420px;
             border-radius: 20px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
             padding: 30px 20px;
             text-align: center;
+            transform: scale(1.05);
         }
         .logo {
             max-width: 180px;
             margin: 20px auto;
         }
         .name {
-            font-size: 1.6em;
+            font-size: 1.8em;
             font-weight: bold;
         }
         .title {
-            font-size: 1.1em;
-            color: #555;
+            font-size: 1.2em;
+            color: #333;
             margin-bottom: 15px;
         }
         .company {
@@ -45,13 +49,14 @@
         }
         .contact {
             text-align: left;
-            font-size: 0.95em;
+            font-size: 1em;
             line-height: 1.8;
+            margin-top: 15px;
         }
         .icon {
-            width: 16px;
+            width: 18px;
             vertical-align: middle;
-            margin-right: 8px;
+            margin-right: 10px;
         }
         .button {
             display: inline-block;
@@ -75,7 +80,6 @@
             <div class="contact">
                 <div><img class="icon" src="https://img.icons8.com/material-outlined/24/000000/email.png"/> carmen.guzman@pluz.pe</div>
                 <div><img class="icon" src="https://img.icons8.com/material-outlined/24/000000/phone.png"/> +51 975 443 618 / +51 920 90 427</div>
-                <div><img class="icon" src="https://img.icons8.com/material-outlined/24/000000/weixing.png"/> wxid_o98dlgkekm9422</div>
             </div>
             <a class="button" href="carmen_guzman.vcf" download>Guardar contacto</a>
         </div>
